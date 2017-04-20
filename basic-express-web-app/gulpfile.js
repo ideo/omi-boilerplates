@@ -1,6 +1,7 @@
 var gulp = require('gulp')
 var sass = require('gulp-sass');
 var browserify = require('gulp-browserify');
+var nodemon = require('gulp-nodemon')
 var livereload = require('gulp-livereload');
 
 gulp.task('scss', function() {
@@ -20,6 +21,14 @@ gulp.task('js', function() {
 	.pipe(livereload());
 })
 
+gulp.task('start', function () {
+	nodemon({
+		script: 'server.js', 
+		ext: 'js html', 
+		env: { 'NODE_ENV': 'development' }
+  	})
+})
+
 gulp.task('watch', function() {
 	livereload.listen();
 	gulp.watch('./*.html').on('change', function() {
@@ -29,4 +38,4 @@ gulp.task('watch', function() {
 	gulp.watch('./src/js/*.js', ['js']);
 });
 
-gulp.task('default', ['watch']);
+gulp.task('default', ['watch', 'start']);

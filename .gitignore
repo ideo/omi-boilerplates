@@ -1,2 +1,6 @@
 .DS_Store
 node_modules/
+
+
+# Basic express web app
+[https://github.com/ideo/omi-boilerplates/tree/master/basic-express-web-app](https://github.com/ideo/omi-boilerplates/tree/master/basic-express-web-app)
