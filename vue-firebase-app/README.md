@@ -18,6 +18,17 @@ npm run build
 npm run build --report
 ```
 
+# Firebase
+You need to do a few things to get firebase setup. 
+1. Create a firebase account
+2. get your web credtions from the dashboard, set your var in `.env`.
+3. Under authentication / sign-in-methods enable google. If you are depoying to Heroku you need to add that domain to the OAuth redirect domains list.
+
+When a user first logs in a profile is create with this structure.
+
+`/{app-name}/development/users/{id}`
+
+
 # Deploy to Heroku
 App is ready for Heroku deployment. All you need to do is set the `Config Vars` in the settings section of Heroku. 
 
