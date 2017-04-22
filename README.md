@@ -31,13 +31,23 @@ Basic example using Spotify web api.
 - Sketch (https://www.sketchapp.com)
 - Squarespace (https://www.squarespace.com)
 - Omnigraffle (https://www.omnigroup.com/omnigraffle)
+- Mockplus (https://www.mockplus.com)
 
 **Assets**
 - https://unsplash.com/ 
 - http://fontawesome.io/icons/  
 - https://thenounproject.com/ 
+- http://gratisography.com
 
 **Technology**
+- Twilio integration https://www.twilio.com
+- Stripe https://stripe.com/docs/api
+- Wekinator http://www.wekinator.org
+- Echo Nest http://the.echonest.com
+- Spotify https://developer.spotify.com/web-api/
+- Sound Cloud https://developers.soundcloud.com/docs/api/guide
+- IFTTT https://ifttt.com
+- Web Torrent https://webtorrent.io
 
 ## Blockchain
 - Why Blockchain? http://www.multichain.com/blog/2015/11/avoiding-pointless-blockchain-project/
