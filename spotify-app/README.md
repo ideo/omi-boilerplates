@@ -22,14 +22,14 @@ npm start
 https://github.com/JMPerez/spotify-web-api-js
 
 ## Routes
-/
+`/`   
 Basic auth for a spotify user grabs their recently played music.
 
-/search   
+`/search`   
 Make a search request for album
 
-/auth   
+`/auth`      
 redirect to allow access to spotify account
 
-/callback   
+`/callback`        
 Token exchange for authentication
