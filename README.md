@@ -55,6 +55,7 @@ Basic example using Spotify web api.
 - Smart Contracts https://solidity.readthedocs.io/en/develop/
 - Blockcypher https://www.blockcypher.com/dev/bitcoin/
 - Blockchain.info https://blockchain.info/api
+- Chain Core https://chain.com/technology/
 
 ## AI
 - IBM Watson https://developer.ibm.com/watson/
