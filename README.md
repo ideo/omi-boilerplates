@@ -1,14 +1,17 @@
 # omi-boilerplates
 Boilerplates for OMI hackathon. Web apps and examples to get something you want to make up and running fast.
 
+## Boilerplates   
+- [basic-express-web-app](https://github.com/ideo/omi-boilerplates/tree/master/basic-express-web-app)     
+Simple express app that serves up a html page with sass, js and live realoding.
 
-## basic-express-web-app
+- [vue-firebase-app](https://github.com/ideo/omi-boilerplates/tree/master/vue-firebase-app)     
+Vue single page app that handles Auth (Google+) and profiles for users.
 
-## vue-firebase-app
+- [spotify-app](https://github.com/ideo/omi-boilerplates/tree/master/spotify-app)     
+Basic example using Spotify web api.
 
-## spotify-app
-
-Brainstorming Rules!
+## Brainstorming Rules!
 - Defer Judgement
 - Encourage Wild Ideas
 - Build on the Ideas of Others
@@ -17,7 +20,7 @@ Brainstorming Rules!
 - Be Visual
 - Go For Quantity
 
-# Tools
+## Tools
 **Screen Prototyping**
 - Pen and Paper
 - Keynote
@@ -36,17 +39,16 @@ Brainstorming Rules!
 
 **Technology**
 
-Blockchain
+## Blockchain
 - Why Blockchain? http://www.multichain.com/blog/2015/11/avoiding-pointless-blockchain-project/
 - Smart Contracts https://solidity.readthedocs.io/en/develop/
 - Blockcypher https://www.blockcypher.com/dev/bitcoin/
 - Blockchain.info https://blockchain.info/api
 
-AI
+## AI
 - IBM Watson https://developer.ibm.com/watson/
 - Project Magenta https://magenta.tensorflow.org/welcome-to-magenta
 - General AI Rundown https://docs.google.com/document/d/1CihlQeYd5lDpPR-dje8l4boK6MFttw9wuGGQkdW0hKI/edit?usp=sharing
-
 
 
 **Need To Print?**
