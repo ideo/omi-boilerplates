@@ -65,6 +65,7 @@ Basic example using Spotify web api.
 ## Machine Learning
 - Wekinator http://www.wekinator.org/
 - Tensor Flow https://www.tensorflow.org/
+- Keras https://keras.io
 
 **Need To Print?**
 Email 1 PDF to tknight@ideo.com by 3:30 pm. 
