@@ -1,0 +1,7 @@
+{
+  "name": "spotify-app",
+  "description": "Simple app using spotify api serverside and clientside for the OMI Hackathon",
+  "repository": "https://github.com/ideo/omi-boilerplates/tree/master/spotify-app",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
+}

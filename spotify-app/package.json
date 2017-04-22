@@ -1,7 +1,7 @@
 {
   "name": "spotify-app",
   "version": "1.0.0",
-  "description": "Simple app to user spotify api serverside and clientside",
+  "description": "Simple app using spotify api serverside and clientside for the OMI Hackathon",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
