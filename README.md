@@ -27,6 +27,7 @@ Boilerplates for OMI hackathon. Web apps and examples to get something you want 
 - https://thenounproject.com/ 
 
 **Technology**
+
 Blockchain
 - Why Blockchain? http://www.multichain.com/blog/2015/11/avoiding-pointless-blockchain-project/
 
