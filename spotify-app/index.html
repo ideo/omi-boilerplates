@@ -18,7 +18,7 @@
 		}
 		.album {
 			text-align: center;
-			width: 120px;
+			width: 220px;
 			border: 1px solid #eee;
 			margin: 10px;
 			padding: 10px; 
@@ -54,15 +54,30 @@
 								<img v-if="user.images.length" :src="user.images[0].url" alt="">
 							</figure>
 							<h1 class="subtitle is-8">{{user.display_name}}</h1>
+							
 							<br>
 							<h2>Recently Played</h2>
 							<div class="albums" v-if="recentlyPlayed">
 								<div class="album" v-for="item in recentlyPlayed.items">
-									<a :href="item.track.album.external_urls.spotify">
-										<figure class="image is-96x96">
-											<img :src="item.track.album.images[0].url" alt="">
-										</figure>
+										<a :href="item.track.album.external_urls.spotify">
+											<figure class="image is-48x48">
+												<img :src="item.track.album.images[0].url" alt="">
+											</figure>
+										</a>
 										<h1 class="subtitle">{{item.track.album.name}}</h1>
+										<button class="button is-small" @click="findRecommendationsFromTrack(item.track)">Get Recommendations</button>
+								</div>
+							</div>
+
+							<br>
+							<h2>Recommendations</h2>
+							<div class="albums" v-if="recommendations">
+								<div class="album" v-for="item in recommendations.tracks">
+									<a :href="item.album.external_urls.spotify">
+										<figure class="image is-96x96">
+											<img :src="item.album.images[0].url" alt="">
+										</figure>
+										<h1 class="subtitle">{{item.album.name}}</h1>
 									</a>
 								</div>
 							</div>
@@ -78,9 +93,15 @@
 			el: '#app',
 			data: {
 				user: null,
-				recentlyPlayed: null
+				recentlyPlayed: null,
+				recommendations: null
 			},
 			methods: {
+				findRecommendationsFromTrack(track) {
+					spotify.getRecommendations({seed_tracks: track.id}).then((data) => {
+						this.recommendations = data
+					})
+				}
 			},
 			mounted() {
     			var token = location.search.split('?access_token=')
@@ -93,7 +114,6 @@
 					spotify.getMyRecentlyPlayedTracks().then((data) => {
 						this.recentlyPlayed = data
 					})
-
     			}
 			}
 		})
