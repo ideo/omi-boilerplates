@@ -48,6 +48,7 @@ Basic example using Spotify web api.
 - Sound Cloud https://developers.soundcloud.com/docs/api/guide
 - IFTTT https://ifttt.com
 - Web Torrent https://webtorrent.io
+- Heroku https://devcenter.heroku.com/categories/reference
 
 ## Blockchain
 - Why Blockchain? http://www.multichain.com/blog/2015/11/avoiding-pointless-blockchain-project/
