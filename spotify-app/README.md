@@ -2,7 +2,7 @@
 
 Simple web app showing how to search spotify and authenticate a user.   
 
-Create a (https://developer.spotify.com)[Spotify App] and fill out the `.env` file   
+Create a [Spotify App](https://developer.spotify.com) and fill out the `.env` file   
 ```
 SPOTIFY_CLIENT_ID="*******"
 SPOTIFY_CLIENT_SECRET="*******"
