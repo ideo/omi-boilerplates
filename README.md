@@ -59,7 +59,7 @@ Basic example using Spotify web api.
 ## AI
 - IBM Watson https://developer.ibm.com/watson/
 - Project Magenta https://magenta.tensorflow.org/welcome-to-magenta
-- General AI Rundown https://docs.google.com/document/d/1CihlQeYd5lDpPR-dje8l4boK6MFttw9wuGGQkdW0hKI/edit?usp=sharing
+- General AI Rundown https://docs.google.com/document/d/1MXqQedBqwNkeZnU0c4ctsM_WmHJkQAgruTTr95kYYcA/edit?usp=sharing
 
 
 **Need To Print?**
