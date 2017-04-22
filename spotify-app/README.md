@@ -18,10 +18,18 @@ npm install
 npm start
 ```
 
-## API
+## Spotify web api
 https://github.com/JMPerez/spotify-web-api-js
 
 ## Routes
-/   
+/
+Basic auth for a spotify user grabs their recently played music.
+
 /search   
+Make a search request for album
+
 /auth   
+redirect to allow access to spotify account
+
+/callback   
+Token exchange for authentication
