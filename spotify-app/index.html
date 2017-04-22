@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OMI Spotify App</title>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+	<script src="/js/spotify-web-api.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.1/axios.js"></script>
+	<link rel=stylesheet href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
+	<style type="text/css">
+		.profile-image {
+			margin: 0 auto;
+		}
+		.albums {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.album {
+			text-align: center;
+			width: 120px;
+			border: 1px solid #eee;
+			margin: 10px;
+			padding: 10px; 
+		}
+		.album figure {
+			margin: 0 auto;
+		}
+		.album h1 {
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	<div id="app">
+		<div class="section">
+			<div class="container">
+				<div class="columns is-multiple">
+					<div class="column is-6 is-offset-3">
+						<div class="field">
+							<p class="control">
+								<div class="has-text-centered ">
+									<a class="button is-primary" href="/auth">Sign in with Spotify</a>
+								</div>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="columns is-multiple" v-if="user">
+					<div class="column is-12">
+						<div class="box has-text-centered">
+							<figure class="image is-96x96 profile-image">
+								<img v-if="user.images.length" :src="user.images[0].url" alt="">
+							</figure>
+							<h1 class="subtitle is-8">{{user.display_name}}</h1>
+							<br>
+							<h2>Recently Played</h2>
+							<div class="albums" v-if="recentlyPlayed">
+								<div class="album" v-for="item in recentlyPlayed.items">
+									<a :href="item.track.album.external_urls.spotify">
+										<figure class="image is-96x96">
+											<img :src="item.track.album.images[0].url" alt="">
+										</figure>
+										<h1 class="subtitle">{{item.track.album.name}}</h1>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var spotify = new SpotifyWebApi()
+		var app = new Vue({
+			el: '#app',
+			data: {
+				user: null,
+				recentlyPlayed: null
+			},
+			methods: {
+			},
+			mounted() {
+    			var token = location.search.split('?access_token=')
+    			if (token.length>1) {
+    				var accessToken = token[1]
+    				spotify.setAccessToken(accessToken)
+    				spotify.getMe().then((data) => {
+    					this.user = data
+    				})
+					spotify.getMyRecentlyPlayedTracks().then((data) => {
+						this.recentlyPlayed = data
+					})
+
+    			}
+			}
+		})
+	</script>
+</body>
+</html>
