@@ -11,13 +11,14 @@ Setup code and boilerplates for OMI hackathon.
 
 # Tools
 
-Screen Prototyping
-https://www.invisionapp.com
-https://marvelapp.com/pop/
-https://balsamiq.com/
+**Screen Prototyping**
+https://www.invisionapp.com      
+https://marvelapp.com/pop/        
+https://balsamiq.com/       
 
-Assets:
-https://unsplash.com/
-http://fontawesome.io/icons/
-https://thenounproject.com/
+**Assets**
+https://unsplash.com/ 
+http://fontawesome.io/icons/  
+https://thenounproject.com/ 
+
 
