@@ -55,12 +55,17 @@ Basic example using Spotify web api.
 - Smart Contracts https://solidity.readthedocs.io/en/develop/
 - Blockcypher https://www.blockcypher.com/dev/bitcoin/
 - Blockchain.info https://blockchain.info/api
+- Chain Core https://chain.com/technology/
 
 ## AI
 - IBM Watson https://developer.ibm.com/watson/
 - Project Magenta https://magenta.tensorflow.org/welcome-to-magenta
 - General AI Rundown https://docs.google.com/document/d/1MXqQedBqwNkeZnU0c4ctsM_WmHJkQAgruTTr95kYYcA/edit?usp=sharing
 
+## Machine Learning
+- Wekinator http://www.wekinator.org/
+- Tensor Flow https://www.tensorflow.org/
+- Keras https://keras.io
 
 **Need To Print?**
 Email 1 PDF to tknight@ideo.com by 3:30 pm. 
