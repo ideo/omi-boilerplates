@@ -18,17 +18,19 @@
 			<div class="container">
 				<div class="columns is-multiple">
 					<div class="column is-6 is-offset-3">
-						<div class="field">
-							<p class="control">
-								<label class="label">Search Spotify</label>
-								<input class="input" type="text" v-model="searchTerm"></input>
-							</p>
-						</div>
-						<div class="field">
-							<p class="control">
-								<button :disabled="!searchTerm" class="button is-primary" @click="searchSpotify">Search</button>
-							</p>
-						</div>
+						<form @submit.prevent="searchSpotify">
+							<div class="field">
+								<p class="control">
+									<label class="label">Search Spotify</label>
+									<input class="input" type="text" v-model="searchTerm"></input>
+								</p>
+							</div>
+							<div class="field">
+								<p class="control">
+									<button :disabled="!searchTerm" class="button is-primary" @click="searchSpotify">Search</button>
+								</p>
+							</div>
+						</form>
 					</div>
 				</div>
 				<div class="columns is-multiple">
