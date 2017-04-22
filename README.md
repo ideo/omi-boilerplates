@@ -1,5 +1,5 @@
 # omi-boilerplates
-Setup code and boilerplates for OMI hackathon. 
+Boilerplates for OMI hackathon. Web apps and examples to get something you want to make up and running fast.
 
 
 ## basic-express-web-app
