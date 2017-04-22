@@ -8,6 +8,14 @@ Boilerplates for OMI hackathon. Web apps and examples to get something you want 
 
 ## spotify-app
 
+Brainstorming Rules!
+- Defer Judgement
+- Encourage Wild Ideas
+- Build on the Ideas of Others
+- Stay Focused on the Topic
+- One Conversation at a Time
+- Be Visual
+- Go For Quantity
 
 # Tools
 **Screen Prototyping**
@@ -30,6 +38,15 @@ Boilerplates for OMI hackathon. Web apps and examples to get something you want 
 
 Blockchain
 - Why Blockchain? http://www.multichain.com/blog/2015/11/avoiding-pointless-blockchain-project/
+- Smart Contracts https://solidity.readthedocs.io/en/develop/
+- Blockcypher https://www.blockcypher.com/dev/bitcoin/
+- Blockchain.info https://blockchain.info/api
+
+AI
+- IBM Watson https://developer.ibm.com/watson/
+- Project Magenta https://magenta.tensorflow.org/welcome-to-magenta
+- General AI Rundown https://docs.google.com/document/d/1CihlQeYd5lDpPR-dje8l4boK6MFttw9wuGGQkdW0hKI/edit?usp=sharing
+
 
 
 **Need To Print?**
