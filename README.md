@@ -62,6 +62,9 @@ Basic example using Spotify web api.
 - Project Magenta https://magenta.tensorflow.org/welcome-to-magenta
 - General AI Rundown https://docs.google.com/document/d/1MXqQedBqwNkeZnU0c4ctsM_WmHJkQAgruTTr95kYYcA/edit?usp=sharing
 
+## Machine Learning
+- Wekinator http://www.wekinator.org/
+- Tensor Flow https://www.tensorflow.org/
 
 **Need To Print?**
 Email 1 PDF to tknight@ideo.com by 3:30 pm. 
