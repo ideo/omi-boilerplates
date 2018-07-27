@@ -3,7 +3,7 @@ Boilerplates for OMI hackathon. Web apps and examples to get something you want 
 
 ## Boilerplates   
 - [basic-express-web-app](https://github.com/ideo/omi-boilerplates/tree/master/basic-express-web-app)     
-Simple express app that serves up a html page with sass, js and live realoding.
+Simple express app that serves up a html page with sass, js and live reloading.
 
 - [vue-firebase-app](https://github.com/ideo/omi-boilerplates/tree/master/vue-firebase-app)     
 Vue single page app that handles Auth (Google+) and profiles for users.
